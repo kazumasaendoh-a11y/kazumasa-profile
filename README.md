@@ -28,11 +28,11 @@ python3 -m http.server 4173
 ```html
 <script>
   const SITE_LINKS = {
-    instagram: "https://example.com/instagram",
-    contact: "https://example.com/contact",
+    instagram: "https://instagram.com/iroai_endoh",
+    contact: "mailto:kazumasa.endoh@gmail.com",
     salonInstagram: "https://instagram.com/plane__official",
     salonCall: "tel:0782208835",
-    salonMap: "https://www.google.com/maps/search/?api=1&query=..."
+    salonMap: "https://www.google.com/maps/search/?api=1&query=plane%20..."
   };
 </script>
 ```
@@ -41,11 +41,11 @@ python3 -m http.server 4173
 
 現在の仮URL:
 
-- Instagram: `https://example.com/instagram`
-- Contact: `https://example.com/contact`
+- Instagram: `https://instagram.com/iroai_endoh`
+- Contact: `mailto:kazumasa.endoh@gmail.com`
 - Salon Instagram: `https://instagram.com/plane__official`
 - Salon Call: `tel:0782208835`
-- Salon Map: Google Maps search URL
+- Salon Map: Google Maps search URL for `plane 兵庫県神戸市北区上津台5-6-4`
 
 OGP用URLも公開後に差し替えてください。SNSや検索エンジン向けの情報なので、JavaScriptではなくHTML内のmetaタグを直接更新します。
 
