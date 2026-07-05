@@ -108,6 +108,22 @@ h1 {
   gap: 56px;
 }
 
+.project-link {
+  display: block;
+  padding: 4px 0;
+  transition: opacity 180ms ease;
+}
+
+.project-link:hover,
+.project-link:focus-visible {
+  opacity: 0.82;
+}
+
+.project-link:focus-visible {
+  outline: 1px solid var(--text);
+  outline-offset: 8px;
+}
+
 .project h2 {
   font-size: 25px;
   font-weight: 400;
