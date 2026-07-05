@@ -34,7 +34,7 @@ python3 -m http.server 4173
     iromix: "https://iro-m-ix.vercel.app",
     salonInstagram: "https://www.instagram.com/plane___official",
     salonCall: "tel:0782208835",
-    salonMap: "https://www.google.com/maps/search/?api=1&query=plane%20..."
+    salonMap: "https://maps.app.goo.gl/Sw49agXEV6DWQvTN6"
   };
 </script>
 ```
@@ -49,7 +49,7 @@ python3 -m http.server 4173
 - iroMIx: `https://iro-m-ix.vercel.app`
 - Salon Instagram: `https://www.instagram.com/plane___official`
 - Salon Call: `tel:0782208835`
-- Salon Map: Google Maps search URL for `plane 兵庫県神戸市北区上津台5-6-4`
+- Salon Map: `https://maps.app.goo.gl/Sw49agXEV6DWQvTN6`
 
 OGP用URLも公開後に差し替えてください。SNSや検索エンジン向けの情報なので、JavaScriptではなくHTML内のmetaタグを直接更新します。
 
